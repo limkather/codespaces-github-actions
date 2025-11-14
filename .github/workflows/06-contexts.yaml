@@ -12,11 +12,11 @@ jobs:
             run: |
                 echo "Event Name: ${{github.event_name}}"
                 echo "Ref: ${{github.ref}}"
-                echo: "SHA: ${{github.sha}}"
-                echo: "Actor: ${{github.actor}}"
-                echo: "Workflow: ${{github.workflow}}"
-                echo: "Run ID: ${{github.run_id}}"
-                echo: "Run Number: ${{github.run_number}}"
+                echo "SHA: ${{github.sha}}"
+                echo "Actor: ${{github.actor}}"
+                echo "Workflow: ${{github.workflow}}"
+                echo "Run ID: ${{github.run_id}}"
+                echo "Run Number: ${{github.run_number}}"
           - name: Revtrieve Var
             run: |
-                echo: "Var value: ${{vars.MY_VAR}}"
+                echo "Var value: ${{vars.MY_VAR}}"
