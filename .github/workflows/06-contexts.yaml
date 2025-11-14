@@ -18,4 +18,5 @@ jobs:
                 echo: "Run ID: ${{github.run_id}}"
                 echo: "Run Number: ${{github.run_number}}"
           - name: Revtrieve Var
-            run: echo "Var value: ${{vars.MY_VAR}}"
+            run: |
+                echo "Var value: ${{vars.MY_VAR}}"
