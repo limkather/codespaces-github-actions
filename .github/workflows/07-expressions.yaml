@@ -4,7 +4,7 @@ run-name: 07 Using Exp | Debug - ${{inputs.debug && 'ON' || 'OFF'}}
 # env:
 #     VAR_DEFAULT: ${{vars.MY_VAR || 'default'}}
 on: 
-    push:
+    # push:
     workflow_dispatch:
          inputs:
             debug:
